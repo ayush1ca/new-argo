@@ -7,7 +7,7 @@ spec:
   type: NodePort
   ports:
     - port: 9000
-      targetPort: 43850
+      targetPort: 43805
   selector:
     app: minio
 ---
